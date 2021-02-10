@@ -117,7 +117,7 @@ Preserve the relative scale, though. */
     transform-origin: left;
 }
 
-/* Set the styles for "Heading 1". */
+/* Set the styles for "Heading 1". 
 .document-editor .ck-content h2,
 .document-editor .ck-heading-dropdown .ck-heading_heading1 .ck-button__label {
     font-size: 2.18em;
@@ -127,10 +127,10 @@ Preserve the relative scale, though. */
 .document-editor .ck-content h2 {
     line-height: 1.37em;
     padding-top: .342em;
-    margin-bottom: .142em;
-}
+    margin-bottom: .142em; 
+}*/
 
-/* Set the styles for "Heading 2". */
+/* Set the styles for "Heading 2". 
 .document-editor .ck-content h3,
 .document-editor .ck-heading-dropdown .ck-heading_heading2 .ck-button__label {
     font-size: 1.75em;
@@ -140,16 +140,16 @@ Preserve the relative scale, though. */
 
 .document-editor .ck-heading-dropdown .ck-heading_heading2.ck-on .ck-button__label {
     color: var(--ck-color-list-button-on-text);
-}
+}*/
 
-/* Set the styles for "Heading 2". */
+/* Set the styles for "Heading 2". 
 .document-editor .ck-content h3 {
     line-height: 1.86em;
     padding-top: .171em;
     margin-bottom: .357em;
-}
+}*/
 
-/* Set the styles for "Heading 3". */
+/* Set the styles for "Heading 3". 
 .document-editor .ck-content h4,
 .document-editor .ck-heading-dropdown .ck-heading_heading3 .ck-button__label {
     font-size: 1.31em;
@@ -160,14 +160,14 @@ Preserve the relative scale, though. */
     line-height: 1.24em;
     padding-top: .286em;
     margin-bottom: .952em;
-}
+}*/
 
 /* Set the styles for "Paragraph". */
 .document-editor .ck-content p {
-    font-size: 1em;
-    line-height: 1.63em;
-    padding-top: .5em;
-    margin-bottom: 1.13em;
+    font-size: 12pt;
+    line-height: 1.5;
+    padding-top: 0;
+    margin-bottom: 0;
 }
 
 
