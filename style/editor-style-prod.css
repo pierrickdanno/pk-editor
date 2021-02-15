@@ -96,13 +96,21 @@
 /* ------- Default content Formating -----*/
 
 /* Set the default font for the "page" of the content. */
-.document-editor .ck-content,
-.document-editor .ck-heading-dropdown .ck-list .ck-button__label {
+.document-editor.ck-content,.document-editor .ck-heading-dropdown .ck-list .ck-button__label {
     font: 12pt/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;/*Modified*/
 }
 
 
 /* ------- Paragraph Default Formating -----*/
+
+h2,p,h1, h3,h4,h5,h6,table,figure,span{
+    margin-block-end :0;
+    margin-block-start :0;
+    font-size:inherit;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
 
 /* Adjust the headings dropdown to host some larger heading styles. */
 .document-editor .ck-heading-dropdown .ck-list .ck-button__label {
@@ -118,20 +126,20 @@ Preserve the relative scale, though. */
 }
 
 /* Set the styles for "Heading 1". */
-.document-editor .ck-content h2,
+.document-editor.ck-content h2,
 .document-editor .ck-heading-dropdown .ck-heading_heading1 .ck-button__label {
     font-size: inherit;
     font-weight: inherit;
 }
 
-.document-editor .ck-content h2 {
+.document-editor.ck-content h2 {
     line-height: inherit;
     padding-top: 0;
     margin-bottom: 0; 
 }
 
 /* Set the styles for "Heading 2". */
-.document-editor .ck-content h3,
+.document-editor.ck-content h3,
 .document-editor .ck-heading-dropdown .ck-heading_heading2 .ck-button__label {
     font-size: inherit;
     font-weight: inherit;
@@ -143,27 +151,27 @@ Preserve the relative scale, though. */
 }
 
 /* Set the styles for "Heading 2". */
-.document-editor .ck-content h3 {
+.document-editor.ck-content h3 {
     line-height: inherit;
     padding-top: 0;
     margin-bottom: 0;
 }
 
 /* Set the styles for "Heading 3". */
-.document-editor .ck-content h4,
+.document-editor.ck-content h4,
 .document-editor .ck-heading-dropdown .ck-heading_heading3 .ck-button__label {
     font-size: inherit;
     font-weight: inherit;
 }
 
-.document-editor .ck-content h4 {
+.document-editor.ck-content h4 {
     line-height: inherit;
     padding-top: 0;
     margin-bottom: 0;
 }
 
 /* Set the styles for "Paragraph". */
-.document-editor .ck-content p {
+.document-editor.ck-content p {
     font-size: 12pt;
     line-height: 1.5;
     padding-top: 0;
@@ -173,7 +181,7 @@ Preserve the relative scale, though. */
 
 /* -------Block Quote --------*/
 /* Make the block quoted text serif with some additional spacing. */
-.document-editor .ck-content blockquote {
+.document-editor.ck-content blockquote {
     font-family: Georgia, serif;
     margin-left: calc( 2 * var(--ck-spacing-large) );
     margin-right: calc( 2 * var(--ck-spacing-large) );
