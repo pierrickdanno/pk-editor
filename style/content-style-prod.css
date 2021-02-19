@@ -461,7 +461,7 @@
     display: block;
 }
 /* ckeditor5-image/theme/imagecaption.css */
-.print.ck-content .image > figcaption {
+.print.ck-content.image > figcaption {
     display: table-caption;
     caption-side: bottom;
     word-break: break-word;
@@ -485,8 +485,6 @@
     max-width: 100%;
     min-width: 50px;
 }
-
-<html><head><link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/gh/pdanno/pk-editor@v0.0.4/style/content-style-prod.css\" type=\"text/css\"><link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/gh/pdanno/pk-editor@v0.0.4/style/editor-style-prod.css\" type=\"text/css\"></head><body class=\"print ck-content\">
 
 
 

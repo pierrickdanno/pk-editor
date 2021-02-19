@@ -57,9 +57,9 @@
 }
 
 .document-editor__editable-container .ck-editor__editable {
-    /* Set the dimensions of the "page". 
+    Set the dimensions of the "page". 
     width: 15.8cm;
-    min-height: 21cm;*/
+    min-height: 21cm;
 
     /* Keep the "page" off the boundaries of the container. */
     padding: 1cm 2cm 2cm;
@@ -104,9 +104,10 @@
 /* ------- Paragraph Default Formating -----*/
 
 .document-editor .ck-content h2,.document-editor .ck-content p,
-.document-editor .ck-content h1, .document-editor .ck-content h3,
+.document-editor .ck-content h1,.document-editor .ck-content h3,
 .document-editor .ck-content h4,.document-editor .ck-content h5,
-.document-editor .ck-content h6,.document-editor .ck-content span{
+.document-editor .ck-content h6,.document-editor .ck-content span,
+.document-editor .ck-content ul,.document-editor .ck-content ol{
     margin-block-end :0;
     margin-block-start :0;
     font-size:inherit;
@@ -212,7 +213,8 @@ Preserve the relative scale, though. */
 .print.ck-content h2,.print.ck-content p,
 .print.ck-content h1,.print.ck-content h3,
 .print.ck-content h4,.print.ck-content h5,
-.print.ck-content h6,.print.ck-content span {
+.print.ck-content h6,.print.ck-content span,
+.print.ck-content ul,.print.ck-content ol {
     margin-block-end :0;
     margin-block-start :0;
     font-size:inherit;
