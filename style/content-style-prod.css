@@ -390,10 +390,10 @@
     /*border: 1px double hsl(0, 0%, 70%);*/
 }
 /* ckeditor5-table/theme/table.css */
-.print.ck-content.table table td,
+/.print.ck-content.table table td,
 .print.ck-content.table table th {
-    min-width: 2em;
-    padding: .4em;
+    min-width: 0;
+    padding: 0;
     /*border: 1px solid hsl(0, 0%, 75%);*/
 }
 /* ckeditor5-table/theme/table.css */
