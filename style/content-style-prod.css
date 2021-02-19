@@ -486,6 +486,7 @@
     min-width: 50px;
 }
 
-.print.ck-content table, .print.ck-content td, .print.ck-content tr, .print.ck-content th {
+.print.ck-content table, .print.ck-content td, 
+.print.ck-content tr, .print.ck-content th {
     border: none;
 }
