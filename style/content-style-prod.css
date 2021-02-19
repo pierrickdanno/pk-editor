@@ -353,7 +353,7 @@
 .print.ck-content.table thead {
     display: table-row-group;
 }
-.print.ck-content.table tr {
+.print.ck-content.table tr,.print.ck-content.table td {
     break-inside: avoid;
     break-after: auto;
 }
@@ -387,14 +387,14 @@
     border-spacing: 0;
     width: 100%;
     height: 100%;
-    border: 1px double hsl(0, 0%, 70%);
+    /*border: 1px double hsl(0, 0%, 70%);*/
 }
 /* ckeditor5-table/theme/table.css */
 .print.ck-content.table table td,
 .print.ck-content.table table th {
     min-width: 2em;
     padding: .4em;
-    border: 1px solid hsl(0, 0%, 75%);
+    /*border: 1px solid hsl(0, 0%, 75%);*/
 }
 /* ckeditor5-table/theme/table.css */
 .print.ck-content.table table th {
@@ -486,5 +486,6 @@
     min-width: 50px;
 }
 
-
-
+.print.ck-content table {
+    border-color: none;
+}
