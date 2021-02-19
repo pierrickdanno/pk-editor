@@ -103,13 +103,16 @@
 
 /* ------- Paragraph Default Formating -----*/
 
-/*h2,p,h1, h3,h4,h5,h6,table,figure,span{
+.document-editor .ck-content h2,.document-editor .ck-content p,
+.document-editor .ck-content h1, .document-editor .ck-content h3,
+.document-editor .ck-content h4,.document-editor .ck-content h5,
+.document-editor .ck-content h6,.document-editor .ck-content span{
     margin-block-end :0;
     margin-block-start :0;
     font-size:inherit;
     margin-inline-start: 0;
     margin-inline-end: 0;
-}*/
+}
 
 
 /* Adjust the headings dropdown to host some larger heading styles. */
@@ -207,18 +210,15 @@ Preserve the relative scale, though. */
 
 
 .print.ck-content h2,.print.ck-content p,
-.print.ck-content h1, .print.ck-content h3,
+.print.ck-content h1,.print.ck-content h3,
 .print.ck-content h4,.print.ck-content h5,
-.print.ck-content h6,.print.ck-content table,
-.print.ck-content figure,.print.ck-content li,
-.print.ck-content ul,.print.ck-content span{
+.print.ck-content h6,.print.ck-content span {
     margin-block-end :0;
     margin-block-start :0;
     font-size:inherit;
     margin-inline-start: 0;
     margin-inline-end: 0;
 }
-
 
 /* Adjust the headings dropdown to host some larger heading styles. */
 .print.ck-heading-dropdown .ck-list .ck-button__label {
