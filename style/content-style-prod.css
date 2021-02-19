@@ -350,11 +350,11 @@
 /* ----------print formatting----------->
 
 /*Avoid page break inside table*/
-.print.ck-content.table thead {
+.print.ck-content .table thead {
     display: table-row-group;
 }
 
-.print.ck-content.table tr {
+.print.ck-content .table tr {
     break-inside: avoid;
     break-after: auto;
 }
@@ -367,54 +367,54 @@
     }
 
     /* ckeditor5-page-break/theme/pagebreak.css */
-    .print.ck-content.page-break {
+    .print.ck-content .page-break {
         padding: 0;
     }
     /* ckeditor5-page-break/theme/pagebreak.css */
-    .print.ck-content.page-break::after {
+    .print.ck-content .page-break::after {
         display: none;
     }
 }
  
 
 /* ckeditor5-table/theme/table.css */
-.print.ck-content.table {
+.print.ck-content .table {
     margin: 1em auto;
     display: table;
 }
 
-<style> .print.ck-content.table table {border-collapse: collapse;}</style>
+
    /* border-collapse: collapse;
 /* ckeditor5-table/theme/table.css */
-.print.ck-content.table table {
-   /* border-collapse: collapse;*/
+.print.ck-content .table table {
+   border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
     height: 100%;
     /*border: 1px double hsl(0, 0%, 70%);*/
 }
 /* ckeditor5-table/theme/table.css */
-/.print.ck-content.table table td,
-.print.ck-content.table table th {
+/.print.ck-content .table table td,
+.print.ck-content .table table th {
     min-width: 2em;
     padding: .4em;
     /*border: 1px solid hsl(0, 0%, 75%);*/
 }
 /* ckeditor5-table/theme/table.css */
-.print.ck-content.table table th {
+.print.ck-content .table table th {
     font-weight: bold;
     background: hsla(0, 0%, 0%, 5%);
 }
 /* ckeditor5-table/theme/table.css */
-.print.ck-content[dir="rtl"].table th {
+.print.ck-content[dir="rtl"] .table th {
     text-align: right;
 }
 /* ckeditor5-table/theme/table.css */
-.print.ck-content[dir="ltr"].table th {
+.print.ck-content[dir="ltr"] .table th {
     text-align: left;
 }
 /* ckeditor5-page-break/theme/pagebreak.css */
-.print.ck-content.page-break {
+.print.ck-content .page-break {
     position: relative;
     clear: both;
     padding: 5px 0;
@@ -423,49 +423,49 @@
     justify-content: center;
 }
 /* ckeditor5-page-break/theme/pagebreak.css */
-.print.ck-content.page-break::after {
+.print.ck-content .page-break::after {
     content: '';
     position: absolute;
     border-bottom: 2px dashed hsl(0, 0%, 77%);
     width: 100%;
 }
 /* ckeditor5-image/theme/imagestyle.css */
-.print.ck-content.image-style-side {
+.print.ck-content .image-style-side {
     float: right;
     margin-left: var(--ck-image-style-spacing);
     max-width: 50%;
 }
 /* ckeditor5-image/theme/imagestyle.css */
-.print.ck-content.image-style-align-left {
+.print.ck-content  .image-style-align-left {
     float: left;
     margin-right: var(--ck-image-style-spacing);
 }
 /* ckeditor5-image/theme/imagestyle.css */
-.print.ck-content.image-style-align-center{
+.print.ck-content .image-style-align-center{
     margin-left: auto;
     margin-right: auto;
 }
 /* ckeditor5-image/theme/imagestyle.css */
-.print.ck-content.image-style-align-right {
+.print.ck-content .image-style-align-right {
     float: right;
     margin-left: var(--ck-image-style-spacing);
 }
 /* ckeditor5-image/theme/imageresize.css */
-.print.ck-content.image.image_resized {
+.print.ck-content .image.image_resized {
     max-width: 100%;
     display: block;
     box-sizing: border-box;
 }
 /* ckeditor5-image/theme/imageresize.css */
-.print.ck-content.image.image_resized img {
+.print.ck-content .image.image_resized img {
     width: 100%;
 }
 /* ckeditor5-image/theme/imageresize.css */
-.print.ck-content.image.image_resized > figcaption {
+.print.ck-content .image .image_resized > figcaption {
     display: block;
 }
 /* ckeditor5-image/theme/imagecaption.css */
-.print.ck-content.image > figcaption {
+.print.ck-content .image > figcaption {
     display: table-caption;
     caption-side: bottom;
     word-break: break-word;
@@ -476,14 +476,14 @@
     outline-offset: -1px;
 }
 /* ckeditor5-image/theme/image.css */
-.print.ck-content.image {
+.print.ck-content .image {
     display: table;
     clear: both;
     text-align: center;
     margin: 1em auto;
 }
 /* ckeditor5-image/theme/image.css */
-.print.ck-content.image img {
+.print.ck-content .image img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
