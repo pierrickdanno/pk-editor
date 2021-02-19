@@ -353,7 +353,7 @@
 .print.ck-content.table thead {
     display: table-row-group;
 }
-.print.ck-content.table tr,.print.ck-content.table td {
+.print.ck-content.table tr {
     break-inside: avoid;
     break-after: auto;
 }
@@ -486,6 +486,6 @@
     min-width: 50px;
 }
 
-.print.ck-content table {
-    border-color: none;
+.print.ck-content table, .print.ck-content td, .print.ck-content tr, .print.ck-content th {
+    border: none;
 }
