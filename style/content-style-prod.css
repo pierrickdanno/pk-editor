@@ -353,6 +353,7 @@
 .print.ck-content.table thead {
     display: table-row-group;
 }
+
 .print.ck-content.table tr {
     break-inside: avoid;
     break-after: auto;
@@ -383,7 +384,7 @@
 }
 /* ckeditor5-table/theme/table.css */
 .print.ck-content.table table {
-    border-collapse: collapse;
+   /* border-collapse: collapse;*/
     border-spacing: 0;
     width: 100%;
     height: 100%;
@@ -392,8 +393,8 @@
 /* ckeditor5-table/theme/table.css */
 /.print.ck-content.table table td,
 .print.ck-content.table table th {
-    min-width: 0;
-    padding: 0;
+    min-width: 2em;
+    padding: .4em;
     /*border: 1px solid hsl(0, 0%, 75%);*/
 }
 /* ckeditor5-table/theme/table.css */
