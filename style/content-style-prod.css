@@ -321,13 +321,13 @@
 }
 
 /*Avoid page break inside table*/
-.ck-content .table thead {
+/*.ck-content .table thead {
     display: table-row-group;
 }
 .ck-content  .table tr {
     break-inside: avoid;
     break-after: auto;
-} 
+} */
 
 @media print {
 
@@ -382,6 +382,9 @@
     margin: 1em auto;
     display: table;
 }
+
+<style> .print.ck-content.table table {border-collapse: collapse;}</style>
+   /* border-collapse: collapse;
 /* ckeditor5-table/theme/table.css */
 .print.ck-content.table table {
    /* border-collapse: collapse;*/
